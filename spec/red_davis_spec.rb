@@ -51,10 +51,10 @@ describe "RedDavis" do
     end
   end
   
-  describe "to_s" do
+  describe "Print" do
     it "should print cv" do
       $stdout = StringIO.new
-      @reddavis.to_s
+      @reddavis.print
       
       $stdout.string.should match(/Lead Developer$/)
     end

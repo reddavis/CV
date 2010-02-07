@@ -45,7 +45,7 @@ class RedDavis
   end
   
   # Print out all basic information
-  def to_s
+  def print
     text = File.expand_path(File.dirname(__FILE__) + '/text/cv.txt')
     File.readlines(text).each do |line|
       puts line
