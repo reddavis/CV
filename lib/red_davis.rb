@@ -23,6 +23,16 @@ class RedDavis
     system("open #{blog_url}")
   end
   
+  def interested_in
+    [
+      'Machine Learning',
+      'Data',
+      'Ruby',
+      'Rails',
+      'Fun things'
+    ]
+  end
+  
   def work_experience
     {
       :green_thing => {
