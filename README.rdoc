@@ -1,27 +1,28 @@
 = My CV
 
 == Install
-	gem sources -a http://gemcutter.org
-	sudo gem install red_davis
+
+gem sources -a http://gemcutter.org
+sudo gem install red_davis
 	
 == How To Use
 
 Boot up IRB
 
-	require 'rubygems'
-	require 'red_davis'
+require 'rubygems'
+require 'red_davis'
 
-	# Lets create a me
-	a = RedDavis.new
+# Lets create a me
+a = RedDavis.new
 
-	# Want to view my blog?
-	a.blog
+# Want to view my blog?
+a.blog
 
-	# Need to share my CV with other co-workers
-	a.share_with('you@yourcompany.com', 'your_co_workers@a.com', 'co_worker2@b.com')
+# Need to share my CV with other co-workers
+a.share_with('you@yourcompany.com', 'your_co_workers@a.com', 'co_worker2@b.com')
 
-	# Want to hire me?
-	a.hired!(:from => 'you', :body => 'hey, nice cv', :subject => 'hello')
+# Want to hire me?
+a.hired!(:from => 'you', :body => 'hey, nice cv', :subject => 'hello')
 	
 View the documentation for all methods
 
