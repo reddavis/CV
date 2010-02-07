@@ -24,7 +24,7 @@ Boot up IRB
   # Want to hire me?
   a.hired!(:from => 'you', :body => 'hey, nice cv', :subject => 'hello')
 	
-View the documentation for all methods
+View the documentation for all methods - http://reddavis.github.com/CV/
 
 == Copyright
 
