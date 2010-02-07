@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/red_davis.rb",
      "lib/text/cv.txt",
+     "red_davis.gemspec",
      "spec/red_davis_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
