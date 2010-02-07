@@ -66,6 +66,12 @@ describe "RedDavis" do
     end
   end
   
+  describe "Interests" do
+    it "should return an array" do
+      @reddavis.interested_in.should be_a(Array)
+    end
+  end
+  
   def json
     %{{"name": "repo_name"}}
   end
