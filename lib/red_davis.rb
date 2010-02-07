@@ -86,6 +86,7 @@ class RedDavis
   end
   
   def github_cv_url
+    'http://github.com/reddavis/CV'
   end
   
   def blog_url
