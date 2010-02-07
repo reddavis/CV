@@ -10,16 +10,16 @@ Boot up IRB
 
 	require 'rubygems'
 	require 'red_davis'
-	
+
 	# Lets create a me
 	a = RedDavis.new
-	
+
 	# Want to view my blog?
 	a.blog
-	
+
 	# Need to share my CV with other co-workers
 	a.share_with('you@yourcompany.com', 'your_co_workers@a.com', 'co_worker2@b.com')
-	
+
 	# Want to hire me?
 	a.hired!(:from => 'you', :body => 'hey, nice cv', :subject => 'hello')
 	
